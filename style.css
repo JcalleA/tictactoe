@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+    font-size: 15pt;
+}
+.caja{
+  margin: 0 auto;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: #666699;
+
+  
+}
+.cuadro{
+  margin: 3.2%;
+  display: flex;
+  float: left;
+  width: 25%;
+  height: 25%;
+  border: solid 3px black;
+  box-shadow: 0px 0px 5px #000;
+  box-shadow: 3px 3px 7px #000;
+  background-color: #6666FF;
+
+}
+.cuadro h1{
+  
+  margin: 0 auto;
+  font-size: 60pt;
+
+}
