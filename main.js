@@ -90,6 +90,7 @@ function obtener(numero) {
   turno.textContent = "Turno Del Jugador " + jugador + "(" + ((jugador == 2) ? "O" : "X") + ")";
   i = i + 1
   ganador();
+  puntero.textContent= (jugador == 2) ? "O" : "X"
   console.log(juego);
 }
 
@@ -97,6 +98,6 @@ function themeChange() {
   const bod = document.getElementById("Theme").classList.toggle("bodyTheme");
 }
 function seguir() {
-  puntero.style.top = parseInt(window.event.pageY -20) + "px";
-  puntero.style.left = parseInt(window.event.pageX -20) + "px";
+  puntero.style.top = parseInt(window.event.pageY +5) + "px";
+  puntero.style.left = parseInt(window.event.pageX +5) + "px";
 }
