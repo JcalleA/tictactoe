@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>HTML</title>
-  
+
   <!-- HTML -->
-  
+
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-<div class="caja">
-  <div class="cuadro" onclick="obtener('1')">
-    <h1 id="1">X</h1>
+<body id="Theme" onmousemove="seguir()">
+  <div  id="puntero" >X</div>
+  <div class="cajaJugador">
+    <h1 id="turno">Turno Del Jugador 1 (X)</h1>
   </div>
-  <div class="cuadro" onclick="obtener('2')">
-        <h1 id="2">X</h1>
+  <div class="caja">
+    <div class="cuadro" id="c1" onclick="obtener('1')">
+      <h1 id="1"></h1>
+    </div>
+    <div class="cuadro" id="c2" onclick="obtener('2')">
+      <h1 id="2"></h1>
+    </div>
+    <div class="cuadro" id="c3" onclick="obtener('3')">
+      <h1 id="3"></h1>
+    </div>
+    <div class="cuadro" id="c4" onclick="obtener('4')">
+      <h1 id="4"></h1>
+    </div>
+    <div class="cuadro" id="c5" onclick="obtener('5')">
+      <h1 id="5"></h1>
+    </div>
+    <div class="cuadro" id="c6" onclick="obtener('6')">
+      <h1 id="6"></h1>
+    </div>
+    <div class="cuadro" id="c7" onclick="obtener('7')">
+      <h1 id="7"></h1>
+    </div>
+    <div class="cuadro" id="c8" onclick="obtener('8')">
+      <h1 id="8"></h1>
+    </div>
+    <div class="cuadro" id="c9" onclick="obtener('9')">
+      <h1 id="9"></h1>
+    </div>
   </div>
-  <div class="cuadro">
-        <h1 id="3">X</h1>
-  </div>
-  <div class="cuadro">    
-    <h1 id="4">X</h1>
-</div>
-  <div class="cuadro">    
-    <h1 id="5">X</h1>
-</div>
-  <div class="cuadro">    
-    <h1 id="6">X</h1>
-</div>
-  <div class="cuadro">    
-    <h1 id="7">X</h1>
-</div>
-  <div class="cuadro">    
-    <h1 id="8">X</h1>
-</div>
-  <div class="cuadro">    
-    <h1 id="9">X</h1>
-</div>
-</div>
   <script src="main.js"></script>
 </body>
+
 </html>
