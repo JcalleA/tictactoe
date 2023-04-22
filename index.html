@@ -15,10 +15,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="Theme" onmousemove="seguir()">
-  <div  id="puntero" >X</div>
+<body id="Theme">
   <div class="cajaJugador">
-    <h1 id="turno">Turno Del Jugador 1 (X)</h1>
+    <h1 class="titulo">Turno De</h1>
+    <h1 id="turno" class="turn">(X)</h1>
   </div>
   <div class="caja">
     <div class="cuadro" id="c1" onclick="obtener('1')">
@@ -48,6 +48,13 @@
     <div class="cuadro" id="c9" onclick="obtener('9')">
       <h1 id="9"></h1>
     </div>
+  </div>
+  <div id="mod" class="modal">
+      <h1 id="turno1" class="turn">(X)</h1>
+      <div class="btncont">
+        <button class="btnReset" onclick="reiniciar()">Reiniciar</button>
+      </div>
+
   </div>
   <script src="main.js"></script>
 </body>
