@@ -98,6 +98,7 @@ body.bodyTheme {
   height: 600px;
   z-index: 9;
   display: none;
+  opacity: 30%;
 }
 .btncont{
   position: relative;
